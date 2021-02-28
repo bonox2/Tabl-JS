@@ -1,4 +1,4 @@
-const DATA =[
+const CONTACTS =[
   {
     "id": 1,
     "name": "Leanne Graham",
@@ -230,6 +230,3 @@ const DATA =[
     }
   }
 ]
-
-
-console.log(DATA);

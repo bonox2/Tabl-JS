@@ -1,3 +1,4 @@
+let contacts = CONTACTS
 const tablEl = document.getElementById('tabl')//
 
 
@@ -24,7 +25,13 @@ const tablEl = document.getElementById('tabl')//
 //       "bs": "harness real-time e-markets"
 //     }
 //   },
-
+function addContact(elem,contacts) {
+  for (let i = 0; i < contacts.length; i++) {
+    const cont = contact[i];
+    renderContact(elem, cont)
+  }
+  
+}
 
 function renderContact(where, data) {//каркас секции
     const html =
